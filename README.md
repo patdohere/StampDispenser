@@ -9,6 +9,7 @@ The StampDispenser class represents a postage stamp vending machine.  The machin
 
 Your task is to complete one of the provided implementations of the StampDispenser class: C++, C#, or Java.
 
+```java
 /**
  * Facilitates dispensing stamps for a postage stamp machine.
  */
@@ -37,6 +38,7 @@ public class StampDispenser
         return 0;
     }
 }
+```
 
 As an example, suppose an instance of StampDispenser was created with stampDenominations, {90, 30, 24, 10, 6, 2, 1}, and calcMinNumStampsToFillRequest(int) was called with request, 34.  The call should return 2, as 34 cents can best be filled by one 24 cent stamp and one 10 cent stamp.
 
